@@ -1,4 +1,4 @@
-# Responsive Tutorial
+# Dummy Portfolio
 
 This is a simple responsive website template that includes sections like Hero, Services, About, Projects, Testimonials, and Contact. The styling is done using HTML and CSS, with Bootstrap for responsiveness.
 
