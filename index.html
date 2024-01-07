@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RESPONSIVE_TUTORIAL</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container-lg">
+      <a class="navbar-brand fw-bold" href="#">Jane Doe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" id="canv">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#testimonials">Testimonals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active d-lg-none" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <a class="btn btn-outline-dark d-none d-lg-block" href="#contact">Let's Talk</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- /NAVBAR -->
+
+  <!-- HERO SECTION -->
+
+  <section class="hero" id="hero">
+    <div class="container-lg">
+      <div class="row align-items-center">
+        <div class="col-md-6 ">
+          <h1 class="display-2 fw-bold">Jane Doe</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sequi fugiat porro assumenda fugit
+            ratione quidem, ad facere minima maxime iste odit pariatur a ea, molestias repellat quia labore quasi.</p>
+          <button class="btn btn-outline-dark btn-lg">Projects</button>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="assets/pictures/hero-crop-removebg-preview.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Hero section -->
+
+  <!-- Services -->
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Services</h2>
+      <div class="row">
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <i class="fa-solid fa-mug-hot" style="color: #000000;"></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <i class="fa-solid fa-mug-hot" style="color: #000000;"></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <i class="fa-solid fa-mug-hot" style="color: #000000;"></i>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Services -->
+
+  <!-- about -->
+
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ab possimus cupiditate consectetur a qui
+        inventore modi nihil esse et voluptatibus, ex earum nulla repellendus harum quo, doloribus velit. Quis.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, ab possimus cupiditate consectetur a qui
+        inventore modi nihil esse et voluptatibus, ex earum nulla repellendus harum quo, doloribus velit. Quis.</p>
+    </div>
+  </section>
+
+
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Projects</h2>
+      <div class="row">
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <img src="assets/pictures/portfolio2.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <img src="assets/pictures/portfolio2.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <img src="assets/pictures/portfolio2.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-sm-6 mt-4">
+          <div class="card">
+            <img src="assets/pictures/portfolio2.jpg" height="200" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-outline-dark">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Testimonials</h2>
+      <div id="carouselExample" class="carousel slide carousel-dark">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam numquam
+              necessitatibus aspernatur error ad quis dolorem eaque at, harum expedita. Veritatis, ullam minus odio
+              voluptatem placeat enim quas cupiditate."</p>
+            <h5>Levi Ackarman</h5>
+          </div>
+          <div class="carousel-item">
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam numquam
+              necessitatibus aspernatur error ad quis dolorem eaque at, harum expedita. Veritatis, ullam minus odio
+              voluptatem placeat enim quas cupiditate."</p>
+            <h5>Alex Volkov</h5>
+          </div>
+          <div class="carousel-item">
+            <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, quibusdam numquam
+              necessitatibus aspernatur error ad quis dolorem eaque at, harum expedita. Veritatis, ullam minus odio
+              voluptatem placeat enim quas cupiditate."</p>
+            <h5>Johny Depp</h5>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="display-5 fw-bold mb-4">Contact Me</h2>
+      <div class="row">
+        <div class="col-sm-4 mt-4">
+          <a href="#">janeofficial@gmail.com</a>
+        </div>
+        <div class="col-sm-4 mt-4">
+          <div class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+        <div class="col-sm-4 mt-4">
+          <a href="#">0-344444-334</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  FOOTER -->
+  <section class="footer">
+    <div class="p-3 bg-body-tertiary fw-bold">&copy; 2023. All Rights Reserved.</div>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

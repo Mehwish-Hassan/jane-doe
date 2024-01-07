@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section[class^="container"] {
+    margin: 4rem 2rem;
+}
+
+section:not(:first-of-type) {
+    text-align: center;
+}
+
+section:nth-child(2n) {
+    background-color: #ecf2ff;
+}
+
+section .container {
+    padding: 4rem 2rem;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f6a4b0;
+    text-decoration: underline;
+}
+
+section.hero {
+    padding-top: 4rem;
+}
+
+/* Services */
+
+section.services i {
+    font-size: 2.3rem;
+    margin: 1rem auto 0;
+    border: 2px solid black;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section .card,
+.btn-outline-dark {
+    border: 2px solid black;
+    box-shadow: 4px 4px black;
+}
+
+section.services .card:hover {
+    box-shadow: 5px 5px #f6a4b0;
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.btn-outline-dark:hover {
+    box-shadow: 4px 4px #f6a4b0;
+}
+
+section .card {
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+section.projects .card {
+    max-width: 17rem;
+    text-align: left;
+}
+
+/* Testimonials */
+
+section.testimonials .carousel-control-prev,
+.carousel-control-next {
+    width: 6%;
+}
+
+section.testimonials .carousel-item p {
+    border-left: 5px solid #f6a4b0;
+    padding-left: .5rem;
+    max-width: 80%;
+    margin: auto;
+}
+
+section.testimonials .carousel.carousel-fade .carousel-item {
+    transition: opacity 0.5s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+section.contact .social-media i {
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+a:hover {
+    color: #f6a4b0;
+}
+
+section.contact .social-media i:hover {
+    color: #f6a4b0;
+}
+
+
+
+@media(min-width :1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+
+    /* section[class^="container"]{
+        padding: 4rem;
+    } */
+    section .container {
+        padding: 4rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    section.about .container,
+    section.testimonials .container {
+        width: 60%;
+    }
+}
+
+
+
+@media(max-width :576px) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero img {
+        width: 70%;
+    }
+}
+
+
+
+@media(max-width :767px) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero img {
+        width: 50%;
+    }
+}
